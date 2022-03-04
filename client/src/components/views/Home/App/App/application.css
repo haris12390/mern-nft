@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.accordion-button{
+    background-color: #ececec;
+}
+.application-section-padding{
+    padding: 100px 0px;
+}
+.application-section-padding-small{
+    padding: 70px 0px;
+}
+/* Header Start */
+.application-wrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    min-height: calc(100vh - 700px) !important; 
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0076d4 !important;
+    background-color: #ececec !important;
+}
+
+@media(max-width: 767px) {
+    .app-wrapper .sections{
+        text-align: center;
+    }
+}
+
+.image-row:hover{
+    cursor: pointer;
+
+}
+
+/* Header End */
+
+/* Section 1 Start*/
+
+
+/* Section 1 End*/
+
+

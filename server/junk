@@ -1,0 +1,304 @@
+<Router>
+        <Switch>
+
+          <AdminPrivateRoute user={user} isAuthenticated={isAuthenticated} exact path='/admin-dashboard' component={Pages.AdminDashoard} />
+          
+          <PrivateRoute user={user} isAuthenticated={isAuthenticated} exact path='/app' component={Pages.App} />
+
+          <Route path="/" exact
+            render={(props) => (<Pages.Home user={user} />)}
+          />
+          {/* <Route path="/register" component={Pages.Register} /> */}
+          <Route path="/register"
+
+            // component={Pages.Login} 
+            render={(props) => (<Pages.Register isAuthenticated={isAuthenticated} />)}
+
+          />
+          <Route path="/login"
+
+            // component={Pages.Login} 
+            render={(props) => (<Pages.Login authenticated={authenticated} isAuthenticated={isAuthenticated} />)}
+
+          />
+          <Route path="/forgotpassword" exact component={Pages.ForgotPassword} />
+          <Route path="/resetpassword/:resetToken" component={Pages.ResetPassword} />
+          <Route path="/app" component={Pages.App} />
+          <Route path="/gallery" component={Pages.Gallery} />
+          <Route path="/about"
+            // component={Pages.Login} 
+            render={(props) => (<Pages.About user={user} authenticated={authenticated} isAuthenticated={isAuthenticated} />)}
+          />
+          <Route path="/contact-us"
+            // component={Pages.Login} 
+            render={(props) => (<Pages.ContactUs user={user} authenticated={authenticated} isAuthenticated={isAuthenticated} />)}
+          />
+          <Route path="/faq"
+            // component={Pages.Login} 
+            render={(props) => (<Pages.Faq user={user} authenticated={authenticated} isAuthenticated={isAuthenticated} />)}
+          />
+          {/* <Route path="/about" component={Pages.About} /> */}
+          <Route path="/blog" component={Pages.Blog} />
+        </Switch>
+      </Router>
+
+
+ <Route exact path='/dashboard/home/footer'>
+                                <div className="container-fluid">
+                                    <div className="text-center">
+                                        <h1 >Footer</h1>
+                                    </div>
+                                    <form onSubmit={(e) => changeLayoutHandler(e, 'footer', "Home")}>
+                                        <div className="form-group">
+                                            <div className="mb-4   ">
+                                                <label>Heading :</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            leftheading: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.leftheading} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4   ">
+                                                <label>Right Heading :</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            rightheading: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.rightheading} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+
+                                            <div className="mb-4">
+                                                <label>Left Text</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            text: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.text} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Left Down Text 2:</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            text2: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.text2} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            {/* Left List Start */}
+                                            <div className="mb-4">
+                                                <label>Left List Heading :</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listHead1: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listHead1} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Left List Item 1</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink1: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink1} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Left List Item 2</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink2: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink2} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Left List Item 3</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink3: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink3} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Left List Item 4</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink4: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink4} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            {/* Left list End */}
+                                            {/* Middle List Start */}
+                                            <div className="mb-4">
+                                                <label>Middle List Heading :</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listHead2: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listHead2} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Middle List Item 1</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink5: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink5} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Middle List Item 2</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink6: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink6} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Middle List Item 3</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink7: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink7} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            {/* Middle List End */}
+
+                                            {/* Right List Start */}
+                                            <div className="mb-4">
+                                                <label>Right List Heading :</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listHead3: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listHead3} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Right List Item 1</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink8: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink8} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Right List Item 2</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink9: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink9} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Right List Item 3</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink10: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink10} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Right List Item 4</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            listLink11: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.listLink11} required type="text" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Background Color :</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            bgColor: e.target.value
+                                                        }
+                                                    }
+                                                }))} value={state.Home?.footer.bgColor} required type="color" className="form-control login-inputs w-100 " />
+                                            </div>
+                                            <div className="mb-4">
+                                                <label>Image :</label>
+                                                <input onChange={(e) => setState(prevState => ({
+                                                    ...prevState, Home: {
+                                                        ...prevState.Home,
+                                                        footer: {
+                                                            ...prevState.Home.footer,
+                                                            image: e.target.files[0]
+                                                        }
+                                                    }
+                                                }))} type="file" className="form-control login-inputs w-100 " />
+                                            </div>
+                                        </div>
+                                        <button type="submit" className="btn btn-primary">Change</button>
+                                    </form>
+                                </div>
+                            </Route>

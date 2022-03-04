@@ -1,0 +1,53 @@
+.navbar-wrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media(max-width: 767px) {
+    .navbar-wrapper .sections{
+        text-align: center;
+    }
+}
+.navbar-header-main{
+    -webkit-box-shadow: 0 8px 6px -6px rgb(184, 184, 184);
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+
+.nft-navbar-header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #494949 !important;
+    text-decoration: none !important;
+    padding: 10px 20px !important;
+    margin-top: 5px !important;
+}
+.nft-navbar-header  .bold-link{
+    font-weight: bold;
+}
+.nft-navbar-header  .navbar-right-box{
+    padding: 0px 0px 0px 100px;
+}
+@media(max-width: 992px) {
+    .navbar-right-box{
+        margin-right: auto;
+        padding: 0px !important;
+    }
+}
+
+.nft-navbar-header .navbar-log-in-button{
+    background-color: #0076d4 !important;
+    color: white !important;
+    padding: 3px 25px !important;
+    border-radius: 15px !important;
+    width: 100px;
+    height: 30px;
+    margin: auto !important;
+    text-decoration: none;
+    text-align: center;
+    /* border-color: white; */
+}
+.logged-dropdown .btn-secondary{
+    background-color: #0076d4 !important;
+    border: none;
+}

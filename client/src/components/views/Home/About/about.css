@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.about-section-padding{
+    padding: 100px 0px;
+}
+/* Header Start */
+.about-wrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media(max-width: 767px) {
+    .about-wrapper .sections{
+        text-align: center;
+    }
+}
+.about-header-main{
+    -webkit-box-shadow: 0 8px 6px -6px rgb(184, 184, 184);
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+
+.nft-about-header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #494949 !important;
+    text-decoration: none !important;
+    padding: 10px 20px !important;
+    margin-top: 5px !important;
+}
+.nft-about-header  .bold-link{
+    font-weight: bold;
+}
+.nft-about-header  .navbar-right-box{
+    padding: 0px 0px 0px 100px;
+}
+@media(max-width: 992px) {
+    .navbar-right-box{
+        margin-right: auto;
+        padding: 0px !important;
+    }
+}
+
+.nft-about-header .about-log-in-button{
+    background-color: #0076d4 !important;
+    color: white !important;
+    padding: 3px 25px !important;
+    border-radius: 15px !important;
+    width: 100px;
+    height: 30px;
+    margin: auto !important;
+    text-decoration: none;
+    text-align: center;
+    /* border-color: white; */
+}
+.logged-dropdown .btn-secondary{
+    background-color: #0076d4 !important;
+    border: none;
+}
+
+/* Header End */
+
+/* Section 1 Start*/
+
+.about-section1{
+  height: 170px;
+  background-color: #f6f6f6;  
+}
+
+.about-hero-section{
+    /* background-color: #0076d4; */
+    background-image: url("../../../../images/hero-about.png");
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* z-index: 1; */
+    margin: auto;
+}
+.about-section-button{
+    background-color: #ff7faf;
+    height: 50px;
+    max-width: 450px;
+    color: white;
+    border-radius: 64px;
+    padding: 15px;
+    border: none;
+}
+
+
+/* Section 1 End*/
+
+

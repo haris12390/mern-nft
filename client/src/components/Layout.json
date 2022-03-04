@@ -1,0 +1,194 @@
+
+{       
+        "Header" : {
+            "header":{
+                "image": "http://res.cloudinary.com/drlc5d15r/image/upload/v1635846369/NFT/qywogvrncwgtsbl1lf9g.jpg",
+                "listItem1": "HOME",
+                "listItem2": "APP",
+                "listItem3": "GALLERY",
+                "listItem4": "ABOUT US",
+                "listItem5": "BLOG",
+                "buttonText": "Signup",
+                "buttonText2": "Login"
+            }
+        },
+        "Footer" :{
+            "footer":{
+                "leftheading": "Stay in the loop",
+                "rightheading": "Join the community",
+                "text": "Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating Opensea.",
+                "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "dashColor": "#178be7",
+                "listHead1": "Useful Links",
+                "listLink1": "Home",
+                "listLink2": "App",
+                "listLink3": "Metadata",
+                "listLink4": "FAQ",
+                "listLink5": "Pricing",
+                "listHead2": "Legal",
+                "listLink6": "Terms of Service ",
+                "listLink7": "Privacy Policy",
+                "listLink8": "Contact Us",
+                "listHead3": "My Account",
+                "listLink9": "Profile0076d4",
+                "listLink10": "Favourites",
+                "listLink11": "My Collection",
+                "listLink12": "Settings",
+                "image": "http://res.cloudinary.com/drlc5d15r/image/upload/v1636539725/NFT/t3zegmay364ohqciubur.png",
+                "bgColor": "#0076d4",
+                "subFooterbgColor": "#016abd",
+                "subFooterText": "Copyright © 2021 NFT Art Generator. All rights reserved."
+            }
+        },
+        "Home": {
+            "section1": {
+                "heading": "Create, sell or collect <br/> digital items.",
+                "text": "The No-Code Solution for generating <br/> your 10,000 NFT collection",
+                "buttonText": "Get Started",
+                "image": "http://res.cloudinary.com/drlc5d15r/image/upload/v1635846406/NFT/vqsyk2ye3i3ooyza3xmp.png"
+            },
+            "section2": {
+                "heading": "Easy to use AND no coding needed",
+                "image1": "http://res.cloudinary.com/drlc5d15r/image/upload/v1635846427/NFT/hnftxcgh8rzf8ohdmqhw.png",
+                "image2": "http://res.cloudinary.com/drlc5d15r/image/upload/v1635846428/NFT/nta18lbdpyrghh4qfo7k.png",
+                "bgColor": "#f6f6f6"
+            },
+            "section3": {
+                "heading": "Hot Collections",
+                "NFTLimit": "20"
+            },
+            "section4": {
+                "heading": "Category",
+                "text": "Will Be Imported From Opean Sea"
+            },
+            "section5": {
+                "heading": "Start your own collection today",
+                "text": "The No-Code Solution for generating your 10,000 NFT collection",
+                "buttonText": "Get Started",
+                "bgColor": "#1892ff",
+                "image": "http://res.cloudinary.com/drlc5d15r/image/upload/v1635846443/NFT/ffyuvjwpdwjnfubadzur.png"
+            },
+            "section6": {
+                "heading": "Blogs",
+                "text": "Will Be Imported From Opean Sea",
+                "bgColor": "#f6f6f6"
+            },
+            "section7": {
+                "heading": "FAQ'S ",
+                "listHead": "What is NFT Generator?",
+                "listText": "NFT Generator is the easiest tool to use if you want to generate thousands of unique items for your NFT collection.No coding required, just drag and drop your images, create layers and set rarity.",
+                "listHead2": "How do we handle your data?",
+                "listText2": "None of the assets you drag & drop are uploaded to our servers when generating previews or free collections.",
+                "listHead3": "Why use NFT Generator?",
+                "listText3": "NFT Generator is the easiest way start selling your NFT collection.With its ease of use combined with powerful rarity capability, NFT Generator will provide the features you are looking for.",
+                "listHead4": "Missing feature?",
+                "listText4": "If NFT Generator is not meeting some of your needs, let us know using the chatbox and we will work with you!",
+                "listImages": "http://res.cloudinary.com/drlc5d15r/image/upload/v1635846454/NFT/auyjl5thkjlznewsy8oo.jpg"
+            }
+        },
+        "About": {
+            "section1": {
+                "heading": "ABOUT US",
+                "leftSubHeading": "HOME",
+                "rightSubHeading": "ABOUT US"
+            },
+            "section2": {
+                "leftImage": "http://res.cloudinary.com/drlc5d15r/image/upload/v1635934900/NFT/xcvkurxdcpbwfd6fo3dm.png",
+                "rightHeading": "Who we are ?",
+                "text": "Contrary to popular belief, Lorem Ipsum is not from a Lorem Ipsum passage, and going through the cites of the word in classical literature. <br /><br />Contrary to popular belief, Lorem Ipsum is not from a Lorem Ipsum passage, Lorem Ipsum passage, and going Contrary to popular belief, <br /> Lorem Ipsum is not from a Lorem Ipsum passage, and going through the cites of the word in classical literature.Contrary to popular belief, Lorem Ipsum is not from a Lorem Ipsum passage, and going through the cites of the word in classical literature."
+            },
+            "section3": {
+                "heading": "NFT at a Glance",
+                "text": "Contrary to popular belief, Lorem Ipsum is not from a Lorem Ipsum passage, and going through the cites of the word in classical literature. <br /><br />Contrary to popular belief, Lorem Ipsum is not from a Lorem Ipsum passage, Lorem Ipsum passage, and going Contrary to popular belief, <br /> Lorem Ipsum is not from a Lorem Ipsum passage, and going through the cites of the word in classical literature.Contrary to popular belief, Lorem Ipsum is not from a Lorem Ipsum passage, and going through the cites of the word in classical literature.",
+                "buttonText": "START GENERATING THERE COLLECTION TODAYY",
+                "image": "http://res.cloudinary.com/drlc5d15r/image/upload/v1636003726/NFT/r5ixwg4bhi9bigwlkw7g.png"
+            }
+        },
+        "Contact": {
+            "section1": {
+                "heading": "CONTACT US",
+                "leftSubHeading": "HOME",
+                "rightSubHeading": "CONTACT US"
+            },
+            "section2": {
+                "leftheading": "Get in Touch",
+                "rightheading": "Contact Details",
+                "text": "Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry's <br /> standard dummy text ever since the 1500s.",
+                "addressText": "Address: No 30 Baria Street 133/2 NewYork City",
+                "mailText": "Info@youremail.com",
+                "telephoneText": "(132) 56987500",
+                "WorkingHours": "Monday - Saturday: 08AM"
+            }
+        },
+        "FAQ": {
+            "section1": {
+                "heading": "FAQ'S US",
+                "leftSubHeading": "HOME",
+                "rightSubHeading": "FAQ'S US"
+            },
+            "section2": [{
+                "questions": "What is NFT Generator?",
+                "answers": "NFT Generator is the easiest tool to use if you want to generate thousands of unique items for your NFT collection. No coding required, just drag and drop your images, create layers and set rarity."
+            }, {
+                "id": "c7222ca9-48f3-4ce9-bb64-de33e89f0e75",
+                "questions": "Why use NFT Generator?",
+                "answers": "NFT Generator is the easiest way start selling your NFT collection. With its ease of use combined with powerful rarity capability, NFT Generator will provide the features you are looking for."
+            }, {
+                "id": "a03b2f9f-fbdb-4719-80fe-fc3f3c032f9d",
+                "questions": "How do we handle your data?",
+                "answers": "None of the assets you drag & drop are uploaded to our servers when generating previews or free collections."
+            }, {
+                "id": "614bb7b8-2b98-4dd0-b3d7-817ec3c6fe3c",
+                "questions": "Missing feature?",
+                "answers": "If NFT Generator is not meeting some of your needs, let us know using the chatbox and we will work with you!"
+            }]
+        },
+        "Blog": {
+            "section1": {
+                "heading": "Blog",
+                "leftSubHeading": "HOME",
+                "rightSubHeading": "FAQ'S US"
+            },
+            "section2": [{
+                "id": "0e081c84-adef-4a07-aff3-4deeb2453878",
+                "blogTitle": "Edition500: A Painting Of The Year That Won Every Heart",
+                "blogText": "<h3><strong>An Open Call To Artists</strong></h3><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. &nbsp;Astro ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. &nbsp;Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum.</strong></p><blockquote><p><strong>Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum.</strong></p></blockquote><p>&nbsp;</p><figure class=\"image image-style-side\"><img></figure>",
+                "createdBy": "@Admin",
+                "createdAt": "November 10, 2021",
+                "category": "Artwork",
+                "featuredImage": "http://res.cloudinary.com/drlc5d15r/image/upload/v1636490625/NFT/a1q0j1o5gsmihkbl1wjx.png"
+            }, {
+                "id": "52dcb40f-e4ae-41de-a754-156db61dc365",
+                "blogTitle": "Edition365: A Portrait Of The Year That Changed Everything",
+                "blogText": "<h3><strong>An Open Call To Artists</strong></h3><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. &nbsp;Astro ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. &nbsp;Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum.</strong></p><figure class=\"image\"><img></figure>",
+                "createdBy": "@Admin",
+                "createdAt": "November 10, 2021",
+                "category": "Artwork",
+                "featuredImage": "http://res.cloudinary.com/drlc5d15r/image/upload/v1636490773/NFT/yy1cj2odo1f1dym2i5js.jpg"
+            }, {
+                "id": "eed082f3-4a6b-46b3-8936-227c02ace801",
+                "blogTitle": "Mobile Phones NFTs",
+                "blogText": "<figure class=\"image image-style-side\"><img src=\"http://res.cloudinary.com/drlc5d15r/image/upload/v1636649203/NFT/qloy02scwdomjlobgjbd.jpg\"></figure><h2><strong>Mobile Phones</strong></h2><p>&nbsp;</p><p><strong>This is the modern era of technology</strong></p>",
+                "createdBy": "@Admin",
+                "createdAt": "November 11, 2021",
+                "category": "Artwork",
+                "featuredImage": "http://res.cloudinary.com/drlc5d15r/image/upload/v1636649357/NFT/eo6nvndvbejz2ke1xmrg.jpg"
+            }, {
+                "id": "6772dac1-4a39-456f-b015-770ac3745c90",
+                "blogTitle": "Iphone 8 Plus",
+                "blogText": "<p><strong>Products</strong></p>",
+                "createdBy": "@Admin",
+                "createdAt": "November 11, 2021",
+                "category": "Artwork",
+                "featuredImage": "http://res.cloudinary.com/drlc5d15r/image/upload/v1636649487/NFT/kpk4zwmqmz5qbc7bb47d.jpg"
+            }, {
+                "id": "c9ec6107-544a-49b8-8e3b-50bf9472190a",
+                "blogTitle": "My First NFT",
+                "blogText": "<h3><strong>An Open Call To Artists</strong></h3><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. &nbsp;Astro ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. &nbsp;Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum.</strong></p><blockquote><p><strong>Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum.</strong></p></blockquote><p><strong>orem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. Nisi enim lorem hepotis ipsum tincidunt nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. &nbsp;Astro ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed interdum. amet leo enim. &nbsp;Elementum lacus, tempus aliquam turpis diam amet leo enim. Nisi enim condimentum tincidunt ornare nam adipiscing. Volutpat lacus, est hendrerit elit sed inter</strong></p><figure class=\"image image-style-side\"><img src=\"http://res.cloudinary.com/drlc5d15r/image/upload/v1636749636/NFT/hyzzifao0hb7ggsiohvw.png\"></figure>",
+                "createdBy": "@Admin",
+                "createdAt": "November 13, 2021",
+                "category": "Artwork",
+                "featuredImage": "http://res.cloudinary.com/drlc5d15r/image/upload/v1636749660/NFT/z8fpzuuzsqeckbsgur26.png"
+            }]
+    }
+}

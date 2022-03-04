@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Header Start */
+
+.nft-register-header {
+    /* padding: 0px 95px; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main{
+    min-height: calc(100vh - 40px); 
+}
+
+
+/* .nft-register-navbar{ */
+
+
+/* padding:0px !important;  */
+
+
+/* max-width: 1000px !important; */
+
+
+/* width: 50px !important ; */
+
+
+/* } */
+
+.nft-register-header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #494949 !important;
+    text-decoration: none !important;
+    padding: 15px 15px !important;
+    margin-top: 5px !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link span {
+    color: #3a4a9f;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+/* .navbar-toggler-icon{
+    height: auto !important;
+} */
+
+@media(max-width: 767px) {
+    .nft-register-header {
+        padding: 0px 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .hide-li{
+        display: none;
+    }
+}
+@media(max-width: 990px) {
+    .hide-li{
+        display: none;
+    }
+}
+
+
+
+/* Header End */
+
+
+/* Section Start */
+
+.nft-register-section {
+    padding: 90px 0px !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nft-register-section h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nft-sign-up-form {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto;
+}
+
+.nft-sign-up-form .sign-up-inputs {
+    border-radius: 65px;
+    height: 44px;
+    /* max-width: 464px !important;
+    width: 100% !important; */
+}
+
+.nft-sign-up-form .input-container {
+    border-radius: 65px;
+    height: 44px;
+}
+
+.nft-sign-up-form input[type="text"]::placeholder {
+    padding-left: 30px;
+}
+
+.nft-sign-up-form input[type="email"]::placeholder {
+    padding-left: 30px;
+}
+.nft-sign-up-form input[type="password"]::placeholder {
+    padding-left: 30px;
+}
+
+.nft-sign-up-form h1 {
+    padding: 0px 0px 40px 0px;
+    text-align: center;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+.form form {
+    /* display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; */
+    display: flex;
+    margin: auto;
+    /* width: 40px; */
+    max-width: 500px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up-button {
+    margin-top: 27px;
+    width: 463px;
+    height: 40px;
+    background-color: #ff7faf !important;
+    color: #ffffff !important;
+    border-radius: 65px !important;
+}
+
+.separator {
+    /* width: 460px; */
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+    padding: 35px 0px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #959595;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #959595;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+@media(max-width: 767px) {
+    .left-box{
+        text-align: center !important;
+        margin: 50px 0px !important;
+    }
+    .nft-register-section{
+        padding: 0 !important;
+    }
+    
+}
+
+
+
+/* Section End */
+
+
+/* Footer Start */
+
+.nft-sign-up-logos {
+    padding: 0px 15px;
+}
+
+/* @media(max-width: 767px) {
+    .nft-footer{
+        height: 70px !important;
+        margin: 30px 0px 0px 0px !important;
+    }
+    .nft-sign-up-form input[type="text"]::placeholder {
+        padding-left: 10px;
+    }
+    
+    .nft-sign-up-form input[type="email"]::placeholder {
+        padding-left: 10px;
+    }
+} */
+
+
+/* Footer End */

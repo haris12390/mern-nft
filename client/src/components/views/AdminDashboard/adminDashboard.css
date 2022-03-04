@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.sidebar{
+    min-height: 91vh;
+    max-height:unset;
+    width: 10.5vw;
+}
+.navbars{
+    width: 100vw;
+}
+
+h5{
+    /* margin-top: 20px;
+    margin-left: 20px;
+    /* color: white; */
+} */
+
+.navlinkers{
+    display: none;
+}
+.bgggs{
+    display: none;
+}
+.alphatobeta{
+    /* color:white; */
+    text-decoration: none !important;
+    margin-left:70vw
+}
+
+.undobgg{
+    display: block;
+}
+@media screen and (max-width:1099px) {
+    .undobgg{
+        display:none !important;
+    }
+    .bgggs{
+        display:block;
+    }
+    
+}
+
+.switch-div .section-paper{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 10px;
+}

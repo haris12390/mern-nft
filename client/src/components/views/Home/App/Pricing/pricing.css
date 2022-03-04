@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.pricing-section-padding{
+    padding: 100px 0px;
+}
+.pricing-section-padding-small{
+    padding: 70px 0px;
+}
+/* Header Start */
+.pricing-wrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    min-height: calc(100vh - 550px) !important; 
+}
+
+@media(max-width: 767px) {
+    .pricing-wrapper .sections{
+        text-align: center;
+    }
+}
+/* Header End */
+
+/* Section 1 Start*/
+
+.pricing-section1{
+  height: 170px;
+  background-color: #f6f6f6;  
+}
+
+.pricing-hero-section{
+    /* background-color: #0076d4; */
+    background-image: url("../../../../../images/hero-about.png");
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* z-index: 1; */
+    margin: auto;
+}
+.pricing-section-button{
+    background-color: #ff7faf;
+    height: 50px;
+    max-width: 450px;
+    color: white;
+    border-radius: 64px;
+    padding: 15px;
+    border: none;
+}
+
+.pricing-form{
+    justify-content: space-evenly;
+}
+.pricing-input{
+    border-radius: 60px !important;
+    /* margin: 0px 10px !important; */
+    height: 50px;
+}
+
+.textarea-input{
+    border-radius: 20px !important;
+}
+
+textarea::placeholder {
+    padding: 10px 0px;
+  }
+
+.pricing-button{
+    background-color: #0076d4;
+    color: white;
+    border: none;
+    border-radius: 65px;
+    width: 170px;
+    padding:5px;
+}
+
+
+/* Section 1 End*/
+
+.pricing-box{
+        box-sizing: border-box;
+        border: 3px solid transparent;
+        background-clip:padding-box;
+}
+
+.pricing-card{
+    border-radius: 10%;
+}
+

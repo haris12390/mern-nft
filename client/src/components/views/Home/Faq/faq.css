@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.faq-section-padding{
+    padding: 100px 0px;
+}
+.faq-section-padding-small{
+    padding: 70px 0px;
+}
+/* Header Start */
+.faq-wrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    min-height: calc(100vh - 550px) !important; 
+}
+
+@media(max-width: 767px) {
+    .faq-wrapper .sections{
+        text-align: center;
+    }
+}
+
+/* Header End */
+
+/* Section 1 Start*/
+
+.faq-section1{
+  height: 170px;
+  background-color: #f6f6f6;  
+}
+
+.faq-hero-section{
+    /* background-color: #0076d4; */
+    background-image: url("../../../../images/hero-about.png");
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* z-index: 1; */
+    margin: auto;
+}
+
+
+
+/* Section 1 End*/
+
+

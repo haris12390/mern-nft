@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Section Start */
+
+/* Section One Start*/
+
+.bolder-font{
+    font-weight: bold;
+}
+.section-padding{
+    padding: 90px 0px !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.section-padding-small{
+    padding: 20px 0px !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section-one-button{
+    width: 170px;
+    /* height: 35px; */
+    border: none;
+    color: white;
+    background-color: #0076d4;
+    border-radius: 15px;
+    padding: 5px;
+}
+.hero-section1{
+    background-image: url('../../../images/hero.png');
+    background-repeat: no-repeat;
+}
+/* Section One END */
+
+/* Section Two Start */
+.section-two{
+    background-color: #f6f6f6;
+}
+
+/* Section Two Start */
+
+/* Section Two End*/
+
+
+
+
+
+
+
+/* Section Five Start */
+
+.section-five{
+    background-color: #1892ff;
+}
+
+/* .blur-div-bg{
+    background-image: url('../../../images//section-five-bg.png');
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    z-index: -1;
+} */
+
+/* Section Five End*/
+
+
+
+
+.section-six{
+    background-color: #f1f1f1;
+}
+
+.section-eigth{
+    background-color: #ff7faf;
+}

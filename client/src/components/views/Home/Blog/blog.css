@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.blog-section-padding{
+    padding: 100px 0px;
+}
+.blog-section-padding-small{
+    padding: 70px 0px;
+}
+/* Header Start */
+.blog-wrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    min-height: calc(100vh - 550px) !important; 
+}
+
+@media(max-width: 767px) {
+    .blog-wrapper .sections{
+        text-align: center;
+    }
+}
+
+/* Header End */
+
+/* Section 1 Start*/
+
+.blog-section1{
+  height: 170px;
+  background-color: #f6f6f6;  
+}
+
+.blog-hero-section{
+    /* background-color: #0076d4; */
+    background-image: url("../../../../images/hero-about.png");
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* z-index: 1; */
+    margin: auto;
+}
+
+.blog{
+    width: 380px;
+    height: 370px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+.blog:hover{
+    cursor: pointer;
+}
+
+ .box{
+    box-sizing: border-box;
+    border: 7px solid transparent;
+    background-clip:padding-box;
+    margin: 0px;
+  }
+
+
+
+/* Section 1 End*/
+
+
